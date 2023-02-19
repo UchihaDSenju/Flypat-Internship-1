@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans&family=Roboto:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="footer.css">
+    <link rel="stylesheet" href="navbar.css">
+    <link rel="stylesheet" href="about.css">
+    <link rel="stylesheet" href="contact.css">
+    <title>Document</title>
+</head>
+<body>
+    <nav class="navbar">
+        <input type="checkbox" id="check">
+        <label for="check" class="checkBtn">
+            <i class="fa fa-bars"></i>
+        </label>
+        <label class="logo"><img src="./Photos/logo.svg" alt="Logo"></label>
+        <ul class="nav-items">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="tags.html">Tag</a></li>
+            <li><a href="recipes.html">Recipes</a></li>
+            <li><a class="contact-btn" href="contact.html">Contact</a></li>
+        </ul>
+    </nav>
+    <div class="container">
+        <main class="main">
+            <section class="content">
+                <article>
+                    <h2>Want to get in touch</h2>
+                    <p>
+                        Four dollar toast biodiesel plaid salvia actually pickled banjo bespoke mlkshk intelligentsia edison bulb synth.
+                    </p>
+                    <p>
+                        Cardigan prism bicycle rights put a bird on it deep v.
+                    </p>
+                    <p>Hashtag swag health goth air plant, raclette listicle fingerstache cold-pressed fanny pack bicycle rights cardigan poke.</p>
+                </article>
+                <article>
+                    <form class="contact-form">
+                        <div class="form-row">
+                            <label class="input-label">Your Name</label>
+                            <input type="text" name="name" id="name" class="form-input">
+                        </div>
+                        <div class="form-row">
+                            <label class="input-label">Your Email</label>
+                            <input type="text" name="email" id="email" class="form-input">
+                        </div>
+                        <div class="form-row">
+                            <label class="input-label">Message</label>
+                            <textarea name="message" id="message" cols="30" rows="10" class="form-input"></textarea>
+                        </div>
+                        <button type="submit" class="submit-btn">Submit</button>
+                    </form>
+                </article>
+            </section>
+            <section class="recipes">
+                <h5 class="" style="text-align: center;">Look at this Awesomesouce</h5>
+                <div class="recipe">
+                    <a href="#">
+                        <img src="./recipe-1.jpeg" alt="recipe 1" class="recipe-img">
+                        <h5 style="color:black; letter-spacing: 1px; margin-top: 0.25rem;">Carne Asada</h5>
+                        <p style="color: #64748b;">Prep 15min | Cook 5min</p>
+                    </a>
+                    <a href="#">
+                        <img src="./recipe-2.jpeg" alt="recipe 2" class="recipe-img">
+                        <h5 style="color:black; letter-spacing: 1px; margin-top: 0.25rem;">Greek Ribs</h5>
+                        <p style="color: #64748b;">Prep 15min | Cook 5min</p>
+                    </a>
+                    <a href="#">
+                        <img src="./recipe-3.jpeg" alt="recipe 3" class="recipe-img">
+                        <h5 style="color:black; letter-spacing: 1px; margin-top: 0.25rem;">Vegetable Soup</h5>
+                        <p style="color: #64748b;">Prep 15min | Cook 5min</p>
+                    </a>
+                </div>
+            </section>
+        </main>
+    </div>
+    <footer class="footer">
+        <p>&#169; 2023 <span class="footer-text-color">Simply Recipes</span> Built by <span class="footer-text-color">Anonymous</span></p>
+    </footer>
+</body>
+</html>
